@@ -1,6 +1,7 @@
 v6.3.0 (2020-xx-xx)
 -------------------
 [new] Result sets with duplicate keys can now be handled using `request.arrayRowMode` ([#1130](https://github.com/tediousjs/node-mssql/pull/1130))
+[new] Add table.rows.clear() method to allow for chunking updates ([#1094](https://github.com/tediousjs/node-mssql/pull/1094))
 [fix] Issue with geography v2 parsing resolve ([#1138](https://github.com/tediousjs/node-mssql/pull/1138))
 
 v6.2.3 (2020-09-25)
